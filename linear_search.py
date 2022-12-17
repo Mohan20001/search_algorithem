@@ -12,6 +12,7 @@ for item in num:
         value = item
         break
     Tries += 1
+    #runtime * .1s to analysis time taken to find target value 
     time.sleep(.1)
 
 final_time = time.time()
